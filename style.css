@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+}
+
+header {
+    margin-top: 6.2rem;
+}
+
+#logo {
+    width: 2.5rem;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 1000;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    margin-top: 0.25rem;
+    letter-spacing: -0.2rem;
+}
+
+p {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+label{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#emailbox {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:center;
+    gap: 0.6rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+}
+
+#mensagem {
+    background-color: #121212;
+    border-color: #727272;
+    border-radius: 0.2rem;
+
+}
+
+#botaocontinuar {
+    flex-direction: column;
+    background-color: #1ED760;
+    width: 18rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+#continuar {
+    color: #121212;
+    font-weight: 800;
+}
+
+#ou {
+    font-weight:normal;
+}
