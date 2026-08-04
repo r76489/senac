@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 179, 217);
+}
+
+h1 {
+    color: rgb(146, 21, 88);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(146, 21, 88);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#fundo {
+    width: 100%;
+    background-image:"flamingos.jpg";
+    background-size:cover;
+    background-position:center;
+}
