@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#um {
+    background-color: cornflowerblue;
+}
+
+#dois {
+    background-color: darkslateblue;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 200px;
+    padding: 100px;
+}

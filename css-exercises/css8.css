@@ -1,0 +1,12 @@
+body {
+    background-color: darkslateblue;
+}
+
+div {
+    width: 250px;
+    padding: 20px;
+    border: 2px dotted rgb(224, 121, 37);
+    margin: 500px;
+    background-color: rgb(237, 224, 248);
+    box-sizing: border-box;
+}

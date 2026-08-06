@@ -1,0 +1,8 @@
+body {
+    background-color: darkslateblue;
+}
+
+.box1, .box2 {
+  height: 100px;
+  margin: 20px;
+}

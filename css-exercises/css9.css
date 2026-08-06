@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  padding: 30px;
+  border: 10px solid black;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(77, 77, 77);
+}
