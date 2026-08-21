@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: url(img/arrow_selector_tool_26dp_264992_FILL0_wght400_GRAD0_opsz24.png), auto;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(174, 225, 248);
+}
+
+button {
+    background-color: #469fd3;
+    border: none;
+    padding: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+footer {
+    background-color: rgb(26, 49, 92);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(26, 49, 92);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#areas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+}
+
+#contato {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#diferenciais {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#divFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aliceblue;
+    margin: 1rem;
+    gap: 0.7rem;
+}
+
+#equipe {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#hero {
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+#heroDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+
+#menu-toggle {
+    display: none;
+}
+
+#sobre {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 49, 92);
+    padding: 2rem;
+    margin: 1rem;
+    color: aliceblue;
+}
+
+.imageSection {
+    width: 500px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.sectionCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+.sectionStructure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+::selection {
+    color: #f8f8f8;
+    background: #469fd3;
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    #divFooter {
+        font-size: 12px;
+    }
+
+    #menu-toggle:checked ~ .nav {
+        display: block;
+    }
+
+    .cards {
+        height: 60px;
+    }
+
+    .imageSection {
+        width: 300px;
+    }
+
+    .sectionStructure {
+        padding: 20px;
+    }
+
+    .menu-button {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .sectionCards {
+        display: grid;
+        grid-template-columns: 55% 55%;
+        gap: 4px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .sectionStructure {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .imageSection {
+        width: 300px;
+    }
+
+    #sobre {
+        flex-direction: column;
+    }
+
+    #equipe {
+        flex-direction: column;
+    }
+
+    #diferenciais {
+        flex-direction: column;
+    }
+
+    #contato {
+        flex-direction: column;
+    }
+
+    #divFooter {
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .cards {
+        height: 60px;
+    }
+
+    .sectionCards {
+        display: grid;
+        grid-template-columns: 90%;
+        gap: 4px;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .menu-button {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked~.nav {
+        display: flex;
+    }
+}
