@@ -1,0 +1,18 @@
+/*Imagens e suas proporções*/
+
+.gif__image {
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.project__image {
+    width: 45%;
+    border-radius: 2rem;
+}
+
+.side__decorations {
+    width: 10rem;
+}

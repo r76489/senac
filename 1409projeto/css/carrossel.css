@@ -1,0 +1,40 @@
+/*Tudo que envolve o carrossel*/
+
+.button__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.carrossel {
+    width: 100%;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    margin: 2rem;
+}

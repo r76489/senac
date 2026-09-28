@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projeto portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/de3d1ab7-d826-40a3-ba94-aa8bee3e7348.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <img src="img/de3d1ab7-d826-40a3-ba94-aa8bee3e7348.png" alt="Estrela rascunho" class="logo">
+        <h1>Portfólio</h1>
+        <input type="checkbox" id="menu__toggle">
+        <label for="menu-toggle" class="menu__button"> ☰ </label>
+        <nav>
+            <a href="#start__nav" class="nav__button">Ínicio</a>
+            <a href="#about__nav" class="nav__button">Sobre mim</a>
+            <a href="#life__nav" class="nav__button">Vida</a>
+            <a href="#projects__nav" class="nav__button">Projetos</a>
+            <a href="#contact__nav" class="nav__button">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="start__nav">
+            <h1>Bem-vindos a meu portfólio!</h1>
+            <img src="img/miku.gif" alt="Gif animado da Hatsune Miku" class="gif__image">
+        </section>
+
+        <section id="nav__options">
+            <section class="card__block">
+                <img src="img/fd6c5f36-82b4-4ca3-b04c-4804b91df67d.png" alt="Estrelinhas" class="side__decorations">
+                <section id="about__nav" class="card">
+                    <h2>Sobre mim</h2>
+                    <p>Meu nome é Rafa e tenho 19 anos. <br>
+                        Gosto muito de música, sei tocar trompete e viola de arco, e tenho
+                        interesse em aprender mais instrumentos.
+                        Também gosto de desenhar, ler e escrever. Minha cor favorita é roxo e minha comida favorita é
+                        pizza.
+                    </p>
+                </section>
+                <img src="img/fd6c5f36-82b4-4ca3-b04c-4804b91df67d.png" alt="Estrelinhas" class="side__decorations">
+            </section>
+
+            <section class="card__block">
+                <img src="img/fd6c5f36-82b4-4ca3-b04c-4804b91df67d.png" alt="Estrelinhas" class="side__decorations">
+                <section id="life__nav" class="card">
+                    <h2>Vida</h2>
+                    <p>Tenho ensino médio completo, realizei o curso de Interfaces de Sistemas do SENAC e participo do
+                        Núcleo de Orquestras Jovens de Novo Hamburgo.
+                        No passado também fiz dança, patinação e teatro. Já trabalhei como auxiliar de produção e no
+                        momento estou estudando para me tornar musicista.</p>
+                </section>
+                <img src="img/fd6c5f36-82b4-4ca3-b04c-4804b91df67d.png" alt="Estrelinhas" class="side__decorations">
+            </section>
+        </section>
+
+        <section id="projects__nav">
+            <h2>Meus Projetos</h2>
+
+            <div class="carrossel">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="img/projetospotify.png" alt="Imagem do projeto" class="project__image">
+                        <section>
+                            <h3>Recriação da página de log-in do Spotify</h3>
+                            <p>
+                                Este projeto foi criado para desenvolver a percepção de layouts usados em sites
+                                profissionais. <br>
+                                Desenvolvido com HTML e CSS, em julho de 2026.
+                            </p>
+                            <a href="">
+                                Ver no GitHub
+                            </a>
+                        </section>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/projetoadvocacia.png" alt="Imagem do projeto" class="project__image">
+                        <section>
+                            <h3>Desenvolvimento de um site de advocacia fictício</h3>
+                            <p>
+                                Criado para conhecer as funções que um site possa vir a ter. <br>
+                                Desenvolvido com HTML e CSS, em agosto de 2026.
+                            </p>
+                            <a href="">
+                                Ver no GitHub
+                            </a>
+                        </section>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/projetoresponsividade.png" alt="Imagem do projeto" class="project__image">
+                        <section>
+                            <h3>Teste de responsividade</h3>
+                            <p>
+                                Feito para testar a responsividade de um site em diferentes tamanhos de tela <br>
+                                Desenvolvido com HTML e CSS.
+                            </p>
+                            <a href="">
+                                Ver no GitHub
+                            </a>
+                        </section>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/projetocalculadora.png" alt="Imagem do projeto" class="project__image">
+                        <section>
+                            <h3>Calculadora</h3>
+                            <p>
+                                Calculadora desenvolvida para testar e unir conhecimentos gerais de HTML,CSS e JS. <br>
+                                Desenvolvido com HTML, CSS e Javascript.
+                            </p>
+                            <a href="">
+                                Ver no GitHub
+                            </a>
+                        </section>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <section class="button__section">
+                <button id="anterior" class="button">🡄</button>
+                <button id="proximo" class="button">🡆</button>
+            </section>
+
+        </section>
+
+        <section id="goodbye__main">
+            <h1>Tchau!</h1>
+            <img src="img/mikutchau.gif" alt="Gif Miku dando tchau" class="gif__image">
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="contact__nav">
+            <h2>Contato</h2>
+            <div class="contact__information">
+                <p>rafaa.winck@gmail.com</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

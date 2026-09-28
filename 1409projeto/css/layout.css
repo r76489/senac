@@ -1,0 +1,52 @@
+/*Cores base, ordem, alinhamentos principais*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    cursor: url('img/stararrow.png'), auto;
+    font-family: "fonte";
+}
+
+@font-face {
+    font-family: "fonte";
+    src: url("./font/Chango-Regular.ttf"), format("truetype");
+}
+
+:root {
+    --background-color: rgb(146, 121, 226);
+    --main-color:rgb(58, 37, 129);
+    --secondary-color:   rgb(77, 109, 214);
+    --text-color: rgb(118, 235, 229);
+    --details-color:  rgb(237, 200, 51);
+}
+
+::selection {
+    background-color: none;
+    color: var(--details-color);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+button {
+    width: 7rem;
+    height: 5rem;
+    border: none;
+    border-radius: 4rem;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+header {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7rem;
+    top: 0;
+}
