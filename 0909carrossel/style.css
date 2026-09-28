@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(180, 192, 227);
+}
+
+.carrossel {
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease;
+    transform: translateX(-100%);
+}

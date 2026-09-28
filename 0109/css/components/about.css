@@ -1,0 +1,26 @@
+#project__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 6rem;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+}
+
+.carrossel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5 ease;
+}

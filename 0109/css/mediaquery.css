@@ -1,0 +1,65 @@
+@media (min-width: 512px) and (max-width: 1300px) {
+    #button__section {
+        gap: 1rem;
+        width: 80%;
+        font-size: 1.25rem;
+    }
+
+    #input-section {
+        gap: 1rem;
+    }
+
+    .input {
+        width: 80%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 512px) {
+    #button__section {
+        gap: 1rem;
+        width: 70%;
+    }
+
+    #input-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+        margin: 2rem;
+        width: 70%;
+    }
+
+    #result {
+        font-size: 2rem;
+    }
+
+    .button {
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .input {
+        width: 90%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media(prefers-color-scheme: dark) {
+    :root {
+        --background-color: rgb(22, 14, 74);
+        --text-color: rgb(249, 142, 11);
+        --box-background-color: rgb(62, 49, 146);
+        --box-border-color: rgb(249, 225, 11);
+        --box-text-color: rgb(249, 225, 11);
+    }
+}

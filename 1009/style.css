@@ -1,0 +1,4 @@
+.caixa {
+    transition: transform 0.5s;
+    transform: translateX(100%);
+}

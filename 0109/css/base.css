@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+:root {
+    --background-color: rgb(253, 246, 205);
+    --text-color: rgb(249, 142, 11);
+    --box-background-color: rgb(175, 222, 241);
+    --box-border-color: rgb(11, 126, 249);
+    --box-text-color: rgb(11, 126, 249);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
